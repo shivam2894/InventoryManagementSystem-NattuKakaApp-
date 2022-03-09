@@ -1,0 +1,9 @@
+insert into categories values(default,"Clothes");
+insert into categories values(default,"Electronics");
+insert into categories values(default,"Home&Kitchen");
+
+insert into products values(default,10,2,1000,"Gloves",5,1,1);
+insert into products values(default,10,2,15000,"Redmi Note 5 Pro",5,1,2);
+insert into products values(default,100,5,1500,"Knife",50,1,3);
+
+

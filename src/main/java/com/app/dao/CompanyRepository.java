@@ -1,0 +1,13 @@
+package com.app.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.app.pojos.Company;
+
+
+
+public interface CompanyRepository extends JpaRepository<Company, Integer> {
+	
+	//inherited method save() -> to register a new company
+
+}
