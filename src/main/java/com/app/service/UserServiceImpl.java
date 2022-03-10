@@ -44,7 +44,7 @@ public class UserServiceImpl implements IUserService {
 //		        "ROLE_COMPANYOWNER"
 //		    ],
 //		    "dob" : "1992-01-12",
-//		    "company": {"companyName":"ManasInc."}
+//		    "company": {"companyName":"ManasInc.", "gstin": "29GGGGG1314R9Z6", "address":"kone waali gali"}
 //		}
 		
 		User user = new User();
