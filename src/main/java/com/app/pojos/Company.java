@@ -1,5 +1,7 @@
 package com.app.pojos;
 
+
+
 import javax.persistence.AttributeOverride;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -24,7 +26,10 @@ public class Company extends BaseEntity {
 	@Column(name="name")
 	private String companyName;
 	
-	//SHIVAM: more fields to be added later
+	@Column(length = 15)
+	private String gstin;
 	
-
+	@Column(length = 100)
+	private String address;
+	
 }
